@@ -1,0 +1,22 @@
+var data = [
+    {
+        name: 'Melodie',
+        text: 'Hey! You’ve made it!'
+    },
+    {
+        name: 'Sunny',
+        text: 'Guess I did…'
+    },
+    {
+        name: 'Sunny',
+        text: 'Sorry for being late.'
+    },
+    {
+        name: 'Melodie',
+        text: 'Nah, dude, it’s totally fine!'
+    },
+    {
+        name: 'Melodie',
+        text: 'So glad to see you!'
+    }
+]
