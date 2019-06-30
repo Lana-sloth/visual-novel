@@ -12,3 +12,19 @@ body {
     cursor: pointer;
     width: 300px;
 }
+.kofi-link {
+    color: #b5b5b5;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'open sans';
+    position: absolute;
+    bottom: 10px;
+}
+.kofi-link:hover {
+    color: #FF5F5F;
+}
+.kofi-link span {
+    color: #FF5F5F;
+    font-family: monospace;
+    font-size: 12px;
+}
