@@ -15,6 +15,14 @@
         <div ng-click="ctrl.nextLine()" class="text-window">
             <h1>{{ctrl.name}}:</h1>
             <p>{{ctrl.text}}</p>
+            <div ng-if="ctrl.choices">
+                <button
+                ng-repeat="choice in ctrl.choices"
+                ng-click="ctrl.choiceButton($index)"
+                >
+                    {{choice}}
+                </button>
+            </div>
         </div>
     </div>
 </body>
